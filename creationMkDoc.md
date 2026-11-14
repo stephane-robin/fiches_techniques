@@ -91,3 +91,7 @@ git commit -m "résumé des modifications"
 git push
 ```
 
+5. Mettre à jour le déploiement sur le site :
+```bash
+mkdocs gh-deploy
+```
