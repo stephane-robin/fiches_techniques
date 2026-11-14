@@ -46,9 +46,10 @@ theme:
 mkdocs serve
 ```
 puis ouvrir le navigateur à l'adresse http://127.0.0.1:8000
+
 8. Créer le repository github.
 
-9. Héberger le site sur github pages 5déploiement sur la branche **gh-pages** du repository :
+9. Héberger le site sur github pages (déploiement sur la branche **gh-pages** du repository) :
 ```bash
 mkdocs gh-deploy
 ```
