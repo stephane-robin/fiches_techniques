@@ -83,8 +83,10 @@ puis ouvrir le navigateur à l'adresse http://127.0.0.1:8000
 
 3. Procéder aux modifications sur VS Code.
 
-4. Déployer les modifications sur le site :
+4. Mettre à jour le commit sur github pour assurer le déploiement des modifications sur le site :
 ```bash
-mkdocs gh-deploy
+git add .
+git commit -m "résumé des modifications"
+git push
 ```
 
