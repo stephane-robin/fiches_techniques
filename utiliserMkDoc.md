@@ -1,9 +1,9 @@
-# CREATION D'UN MKDOC MATERIAL
+# UTILISATION DE MKDOC MATERIAL
 
 Il faut avoir installé Python préalablement sur la machine.
 
 
-## Construction du projet
+## Création du projet
 
 1. Créer le dossier hébergeant le projet :
 ```bash
@@ -82,7 +82,7 @@ mkdocs serve
 ```
 puis ouvrir le navigateur à l'adresse http://127.0.0.1:8000
 
-3. Procéder aux modifications sur VS Code.
+3. Procéder aux modifications sur VS Code. Si les modifications sont satisfaisantes, ne pas désactiver l'environnement de développement car on va en avoir besoin pour déployer les modifications sur le site.
 
 4. Mettre à jour le commit sur github pour assurer le déploiement des modifications sur le site :
 ```bash
